@@ -40,23 +40,23 @@ More recently, I've focused on the **security of AI systems**: applying the OWAS
 
 A source-level security assessment and threat model of an autonomous, LLM-driven decision agent built on the Anthropic Claude API. Maps the agent's attack surface to the OWASP Top 10 for LLMs — identifying indirect prompt injection through untrusted feeds as the primary risk — documents the existing safe-default controls (typed output validation, fail-closed defaults, data/instruction separation), rates findings by severity, and defines a prioritized hardening roadmap.
 
-### InvisibleFerret Malware Analysis
+### [InvisibleFerret Malware Analysis](InvisibleFerret_Malware_Analysis.pdf)
 
 Static and dynamic analysis of a Python-based information stealer linked to the North Korean "Contagious Interview" campaign. Examines the malware's modular class architecture, Base64-obfuscated C2 communication, cross-browser credential theft, and filesystem exfiltration, with runtime network behavior captured in a sandbox.
 
-### Enterprise Network Security Implementation
+### [Enterprise Network Security Implementation](Enterprise_Network_Security_Implementation.pdf)
 
 An enterprise network built and secured from scratch on a Palo Alto next-generation firewall — segmented LAN/DMZ/WAN zones, least-privilege security policies, inline malware inspection, Wazuh HIDS across a multi-host Windows domain, Sysmon telemetry, and Windows Defender hardening.
 
-### Threat Hunting & Incident Response
+### [Threat Hunting & Incident Response](Threat_Hunting_Incident_Response.pdf)
 
 A threat hunt and incident investigation across a 9-host Active Directory environment with no prior documentation, correlating Splunk, Security Onion, Velociraptor, and Arkime to profile hosts, validate alerts, and distinguish malicious activity from benign endpoint-protection behavior.
 
-### Internal Penetration Test
+### [Internal Penetration Test](Internal_Penetration_Test_Report.pdf)
 
 An assumed-breach penetration test of an internal /24 network — full methodology from discovery through exploitation and privilege escalation. Three hosts were compromised (a vsftpd backdoor, MS08-067, and an SSH-key + SUID escalation chain), with findings documented alongside CVSS scoring and remediation guidance.
 
-### GoFetch Vulnerability Research
+### [GoFetch Vulnerability Research](GoFetch_Vulnerability_Research.pdf)
 
 A research analysis of the GoFetch side-channel attack on Apple M-series processors — how the data memory-dependent prefetcher (DMP) breaks constant-time cryptography, the chosen-input key-extraction technique, the affected classical and post-quantum algorithms, and available software mitigations.
 
