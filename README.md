@@ -69,4 +69,4 @@ A research analysis of the GoFetch side-channel attack on Apple M-series process
 
 Open to entry-level opportunities in AI Security, SOC operations, and Cyber Threat Intelligence.
 
-- **LinkedIn:** linkedin.com/in/eisha-khan
+- **LinkedIn:** [linkedin.com/in/eisha-khan](https://www.linkedin.com/in/eisha-khan-8857a6287/)
