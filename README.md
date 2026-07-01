@@ -36,6 +36,10 @@ More recently, I've focused on the **security of AI systems**: applying the OWAS
 
 ## Projects
 
+### AI Security Assessment — LLM-Powered Autonomous Trading Agent
+
+A white-box AI/LLM security review of an autonomous trading agent integrated with the Anthropic Claude API, mapped to the OWASP Top 10 for LLMs, MITRE ATLAS, and the NIST AI RMF. Traces untrusted data from ingest to action across the agent's decision pipeline — identifying an indirect prompt-injection boundary in the news/RSS ingestion path, an excessive-agency gap in how trade execution is gated, and the strong structured-output validation and environment-based secrets handling that anchor the system's defenses — with a prioritized remediation roadmap. Assessed against a paper-trading account; contains no secrets.
+
 ### InvisibleFerret Malware Analysis
 
 Static and dynamic analysis of a Python-based information stealer linked to the North Korean "Contagious Interview" campaign. Examines the malware's modular class architecture, Base64-obfuscated C2 communication, cross-browser credential theft, and filesystem exfiltration, with runtime network behavior captured in a sandbox.
