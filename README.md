@@ -1,51 +1,72 @@
-# Projects
+# Eisha Khan
 
-This repository is a collection of my security research, analysis, and
-assessment work. Each document captures a self-contained project — ranging
-from hands-on penetration testing and malware reverse-engineering to
-vulnerability research and defensive network design. Together they reflect
-both the offensive and defensive sides of security engineering.
+**Cybersecurity & AI Security Analyst**
 
-## Overview
+Recent Cyber Operations graduate specializing in security operations, threat detection, and the emerging field of AI/LLM security. This repository is a portfolio of hands-on projects spanning defensive security, offensive security, malware analysis, and vulnerability research.
 
-The material here spans several disciplines:
+---
 
-- **Offensive security** — internal penetration testing and vulnerability
-  research, showing how weaknesses are discovered and exploited.
-- **Malware analysis** — static and behavioral breakdowns of real-world
-  malicious software.
-- **Defensive engineering** — network security architecture and incident
-  response, focused on detecting and containing threats.
+## About Me
 
-Everything in this repository is intended for educational and professional
-reference. Reports were produced in authorized testing environments or from
-publicly available research.
+I'm a Cybersecurity Analyst and 2025 Cyber Operations graduate (B.S., Dakota State University) with hands-on experience across SOC operations, threat detection, incident response, malware analysis, and reverse engineering — and a growing specialization in securing AI and large language model (LLM) systems.
 
-## Documents
+I'm currently seeking an **entry-level role in AI Security, SOC operations, or Cyber Threat Intelligence**. The projects in this repository show how I approach real security problems end to end: building and defending enterprise networks, hunting threats across enterprise telemetry, reverse-engineering malware, testing systems from an attacker's perspective, and researching hardware-level vulnerabilities.
 
-### Enterprise Network Security Implementation
-A walkthrough of designing and implementing security controls across an
-enterprise network. Covers segmentation, access control, monitoring, and the
-architectural decisions behind a defensible network.
+## Background
 
-### GoFetch Vulnerability Research
-Research into the GoFetch vulnerability — how it works, why it matters, and
-what its impact looks like in practice, along with mitigation considerations.
+I earned my **B.S. in Cyber Operations from Dakota State University in 2025**, a program grounded in both offensive and defensive security, digital forensics, and secure systems. My academic and independent work covers the full defensive stack — designing and hardening enterprise networks, and hunting threats across SIEM, endpoint, and network telemetry — as well as offensive security through penetration testing and binary reverse engineering.
+
+More recently, I've focused on the **security of AI systems**: applying the OWASP Top 10 for LLMs, the NIST AI Risk Management Framework, and ISO/IEC 42001 concepts, and studying agentic AI threat modeling and secure-AI-lifecycle practices. I've reinforced this through independent development — building an autonomous LLM-powered agent integrated with the Anthropic Claude API — which gave me practical exposure to prompt handling, structured API integration, and the security considerations of real-world LLM applications.
+
+## Technical Skills
+
+**AI & LLM Security** OWASP Top 10 for LLMs · Prompt Injection & Jailbreak Detection · LLM Output Validation & Guardrails · MITRE ATLAS · AI Threat Modeling · NIST AI RMF · ISO/IEC 42001 Concepts · Secure AI Lifecycle · RAG & AI Agent Security
+
+**Security Operations & Investigation** SIEM Monitoring · Threat Hunting · Incident Response · Alert Triage & Validation · Log & Packet Analysis · Endpoint Forensics · Cross-Platform Log Correlation · MITRE ATT&CK
+
+**Reverse Engineering & Malware Analysis** Ghidra · Static & Dynamic Analysis · Sandbox Analysis · Network Behavior Analysis · Assembly Fundamentals
+
+**Offensive Security** Nmap · Metasploit · NetExec · SearchSploit · Enumeration · Vulnerability Analysis · Privilege Escalation
+
+**Tools & Platforms** Splunk · Security Onion · Velociraptor · Wazuh · Arkime · Wireshark · Palo Alto NGFW · Sysmon
+
+**Programming & Automation** Python · Bash · PowerShell · SQL
+
+**Networking & Systems** TCP/IP · DNS · NAT · Layer 3 Routing · Network Segmentation · IDS/IPS · Firewalls · Windows · Linux (Ubuntu, Kali)
+
+## Projects
 
 ### InvisibleFerret Malware Analysis
-A detailed analysis of the InvisibleFerret malware, including its behavior,
-indicators of compromise, and the techniques it uses to operate and persist.
 
-### Internal Penetration Test Report
-Findings from an internal penetration test: the vulnerabilities identified,
-how they were exploited, the associated risk, and recommended remediation.
+Static and dynamic analysis of a Python-based information stealer linked to the North Korean "Contagious Interview" campaign. Examines the malware's modular class architecture, Base64-obfuscated C2 communication, cross-browser credential theft, and filesystem exfiltration, with runtime network behavior captured in a sandbox.
+
+### Enterprise Network Security Implementation
+
+An enterprise network built and secured from scratch on a Palo Alto next-generation firewall — segmented LAN/DMZ/WAN zones, least-privilege security policies, inline malware inspection, Wazuh HIDS across a multi-host Windows domain, Sysmon telemetry, and Windows Defender hardening.
 
 ### Threat Hunting & Incident Response
-A threat hunting and incident response write-up describing how suspicious
-activity is detected, investigated, and contained end to end.
 
-## Disclaimer
+A threat hunt and incident investigation across a 9-host Active Directory environment with no prior documentation, correlating Splunk, Security Onion, Velociraptor, and Arkime to profile hosts, validate alerts, and distinguish malicious activity from benign endpoint-protection behavior.
 
-All work here was performed for legitimate research, education, and authorized
-assessment purposes only. Nothing in this repository should be used to target
-systems without explicit permission.
+### Internal Penetration Test
+
+An assumed-breach penetration test of an internal /24 network — full methodology from discovery through exploitation and privilege escalation. Three hosts were compromised (a vsftpd backdoor, MS08-067, and an SSH-key + SUID escalation chain), with findings documented alongside CVSS scoring and remediation guidance.
+
+### GoFetch Vulnerability Research
+
+A research analysis of the GoFetch side-channel attack on Apple M-series processors — how the data memory-dependent prefetcher (DMP) breaks constant-time cryptography, the chosen-input key-extraction technique, the affected classical and post-quantum algorithms, and available software mitigations.
+
+## Certifications
+
+- Google Cybersecurity Professional Certificate — Coursera
+- Securing Generative AI — Pearson / Coursera
+- Building AI Products: Security Essentials — LinkedIn
+- Microsoft Security Essentials Professional Certificate
+- Microsoft Azure AI Essentials Professional Certificate
+- Ubuntu Linux Professional Certificate — Canonical
+
+## Contact
+
+Open to entry-level opportunities in AI Security, SOC operations, and Cyber Threat Intelligence.
+
+- **LinkedIn:** linkedin.com/in/eisha-khan
