@@ -36,7 +36,7 @@ More recently, I've focused on the **security of AI systems**: applying the OWAS
 
 ## Projects
 
-### AI Security Assessment & Threat Model — Autonomous LLM Agent
+### [AI Security Assessment & Threat Model — Autonomous LLM Agent](AI_Security_Assessment_LLM_Agent.pdf)
 
 A source-level security assessment and threat model of an autonomous, LLM-driven decision agent built on the Anthropic Claude API. Maps the agent's attack surface to the OWASP Top 10 for LLMs — identifying indirect prompt injection through untrusted feeds as the primary risk — documents the existing safe-default controls (typed output validation, fail-closed defaults, data/instruction separation), rates findings by severity, and defines a prioritized hardening roadmap.
 
