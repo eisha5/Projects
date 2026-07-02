@@ -60,14 +60,6 @@ An assumed-breach penetration test of an internal /24 network — full methodolo
 
 A research analysis of the GoFetch side-channel attack on Apple M-series processors — how the data memory-dependent prefetcher (DMP) breaks constant-time cryptography, the chosen-input key-extraction technique, the affected classical and post-quantum algorithms, and available software mitigations.
 
-## Certifications
-
-- Google Cybersecurity Professional Certificate — Coursera
-- Securing Generative AI — Pearson / Coursera
-- Building AI Products: Security Essentials — LinkedIn
-- Microsoft Security Essentials Professional Certificate
-- Microsoft Azure AI Essentials Professional Certificate
-- Ubuntu Linux Professional Certificate — Canonical
 
 ## Contact
 
